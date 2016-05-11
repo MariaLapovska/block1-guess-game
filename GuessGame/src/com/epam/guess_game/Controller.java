@@ -89,7 +89,7 @@ public class Controller {
     public boolean checkOutOfRange(int guess) {
         if ((guess <= model.getLowerBoundary()) || (guess >= model.getUpperBoundary())) {
             return true;
-        } else {
+        } else { // Number is in range
             return false;
         }
     }
